@@ -1,0 +1,14 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://datapad.io/security
+url: https://datapad.io/security
+certifications:
+- SOC 2
+- GDPR
+evidence:
+- source: https://datapad.io/security
+  keywords:
+  - soc 2
+  - compliance certification
+  - gdpr

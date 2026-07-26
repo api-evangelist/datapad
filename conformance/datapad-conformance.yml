@@ -1,0 +1,34 @@
+generated: '2026-07-18'
+method: searched
+source: https://datapad.io/security
+note: >-
+  Datapad publishes no developer API (no OpenAPI/AsyncAPI/GraphQL), so
+  API-level cross-cutting standards cannot be derived. The standards below
+  reflect the security/compliance posture published on the Datapad security
+  page. "available upon request" certifications are recorded as conforms:true
+  with an evidence note.
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: Security page states Datapad is SOC 2 Type II compliant; report available upon request via hello@datapad.io
+- id: tx-ramp
+  conforms: true
+  evidence: Security page states Datapad is TX-RAMP compliant; documentation available upon request
+- id: gdpr
+  conforms: partial
+  evidence: Security page states Datapad is "actively progressing toward GDPR compliance"
+- id: iso-27001
+  conforms: false
+  evidence: not claimed on the security page
+- id: hipaa
+  conforms: false
+  evidence: not claimed on the security page
+- id: pci-dss
+  conforms: false
+  evidence: not claimed on the security page
+- id: oauth2
+  conforms: false
+  evidence: no public developer API / OAuth surface published
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API error surface published

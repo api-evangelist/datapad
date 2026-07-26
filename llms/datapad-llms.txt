@@ -1,0 +1,22 @@
+# Datapad
+
+> Datapad is an autonomous AI data analyst platform that lets business teams analyze their data by asking questions in natural language. It connects to 50+ data sources (SQL, BigQuery, Snowflake, Google Ads, Facebook Ads, Shopify, HubSpot and more) and uses Text2SQL and Python code generation to turn questions into queries, dashboards, and insights, with a Slack bot for conversational analytics. Datapad is a San Francisco company backed by a16z. It is an end-user SaaS product and does not currently publish a public developer REST/GraphQL API, SDKs, or webhook surface.
+
+## Product
+- [Datapad](https://datapad.io): AI data analysis platform homepage
+- [App / Sign in](https://app.datapad.io): Web application (sign up and login)
+- [Integrations](https://datapad.io/integrations): 50+ supported data sources
+- [Pricing](https://datapad.io/pricing): Plans and pricing
+
+## Docs
+- [Documentation](https://datapad.io/docs): End-user product documentation (connect a data source, ask a question, build a dashboard)
+- [Blog](https://datapad.io/blog): Product and conversational-analytics content
+
+## Security & Compliance
+- [Security](https://datapad.io/security): SOC 2 Type II and TX-RAMP compliant; progressing toward GDPR; responsible disclosure via security@datapad.io
+- [Terms of Service](https://datapad.io/terms-of-service)
+- [Privacy Policy](https://datapad.io/privacy-policy)
+
+## Company
+- [GitHub](https://github.com/datapad): DataPad Inc. organization
+- Contact: hello@datapad.io

@@ -1,7 +1,28 @@
 aid: datapad
 name: Datapad
-description: Datapad is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Datapad is an autonomous AI data analyst platform that lets business teams
+  analyze their data by asking questions in natural language. It connects to
+  50+ data sources — SQL databases, BigQuery, Snowflake, Google Ads, Facebook
+  Ads, Shopify, HubSpot and more — and uses Text2SQL and Python code generation
+  (powered by models such as Claude and ChatGPT) to turn questions into
+  queries, dashboards, and insights, with a Slack bot for conversational
+  analytics. Datapad is a San Francisco company backed by a16z. It is an
+  end-user SaaS product and does not currently publish a public developer
+  REST/GraphQL API, SDKs, or webhook surface; this profile captures its
+  identity, security, and compliance posture.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://datapad.io/images/og-image.png
 url: https://raw.githubusercontent.com/api-evangelist/datapad/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,61 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Analytics
+- Artificial Intelligence
+- Data
+- Business Intelligence
+- Natural Language
+- Dashboards
+- SaaS
 apis: []
+common:
+- type: TrustCenter
+  url: security/datapad-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/datapad-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/datapad-domain-security.yml
+- type: Security
+  url: https://datapad.io/security
+- type: Website
+  url: https://datapad.io
+- type: Documentation
+  url: https://datapad.io/docs
+- type: Blog
+  url: https://datapad.io/blog
+- type: Pricing
+  url: https://datapad.io/pricing
+- type: SignUp
+  url: https://app.datapad.io
+- type: Login
+  url: https://app.datapad.io
+- type: TermsOfService
+  url: https://datapad.io/terms-of-service
+- type: PrivacyPolicy
+  url: https://datapad.io/privacy-policy
+- type: Support
+  url: mailto:hello@datapad.io
+- type: GitHubOrganization
+  url: https://github.com/datapad
+- type: Integrations
+  url: https://datapad.io/integrations
+- type: Compliance
+  url: https://datapad.io/security
+- type: Conformance
+  url: conformance/datapad-conformance.yml
+- type: LLMsTxt
+  url: llms/datapad-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
