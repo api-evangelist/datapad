@@ -11,6 +11,17 @@ description: >-
   end-user SaaS product and does not currently publish a public developer
   REST/GraphQL API, SDKs, or webhook surface; this profile captures its
   identity, security, and compliance posture.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
