@@ -1,0 +1,54 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://datapad.io/pricing
+sources:
+- https://datapad.io/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Bring Your Own Cloud
+  managed_tier: Basic
+published: true
+note: Monthly/annual toggle shown; annual prices ($15, $25, $500) appear beside monthly ones with 'Save
+  as much as 20% with annual billing'. Plan prices captured as listed.
+plan_count: 4
+currency: USD
+plans:
+- name: Basic
+  price_text: $30
+  price: 30
+  currency: USD
+  period: month
+  unit: user
+  included_quota: 1 User, Unlimited Messages, Unlimited File Uploads, 1 Data Source except Database
+- name: Pro
+  price_text: $50
+  price: 50
+  currency: USD
+  period: month
+  unit: per user / month
+  included_quota: Unlimited Messages, Unlimited File Uploads, Unlimited Dashboards, 10 Data Sources except
+    Databases
+- name: Scale
+  price_text: $1000
+  price: 1000
+  currency: USD
+  period: month
+  unit: per workspace / month
+  included_quota: Unlimited Data Sources including Databases, Priority support, Workflow & Automation,
+    Slack Bot, Auto-Learning Agent
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Everything in Scale, Bring Your Own Cloud, Dedicated Support, Custom Services, Advanced
+    Security & Compliance, White-label Options
+rate_limit_statements:
+- Our Free plan includes 1 user, 5 daily chat messages, 1 saved report, and community support.
